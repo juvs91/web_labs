@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lab pokemon deck</title>
+  <script>
+    // DOMContentLoaded wait until all dom is loaded, check the docs in below link
+    // https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event
+    document.addEventListener("DOMContentLoaded", (_) => {
+      // use here what you have in utils.js
+      let item_name = document.querySelector("#pokemon-name");
+      let item_weight = document.querySelector("#item-weight");
+    });
+  </script>
+</head>
+<body>
+  <div id="container">
+    name: <input type="text" id="pokemon-name">
+    weight: <input type="text" id="pokemon-weight">
+    <button id="add-pokemon"> add</button>
+  </div>
+  <ul class="pokemons">
+
+  </ul>
+  <div id="total-weight"></div>
+  <div id="error"></div>
+</body>
+</html>
